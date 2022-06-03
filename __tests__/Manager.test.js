@@ -12,6 +12,12 @@ test('Can set officenumber via constructor', () => {
     expect(manager.officeNumber).toBe('203');
 });
 
+test('getOfficeNumber() should return "1"', () => {
+    const manager = new Manager('name', 'id', 'email', '2');
+
+    expect(manager.getOfficeNumber()).toBe('2');
+});
+
 test('getRole() should get "Manager"', () => {
     const manager = new Manager();
 
