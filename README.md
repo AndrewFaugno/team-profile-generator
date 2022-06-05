@@ -17,7 +17,7 @@
   clone repo, then 'npm i' in root terminal.
   
   ## Usage
-  Generate HTML file
+  'node index' in root terminal
 
   ## Contribution
   .
