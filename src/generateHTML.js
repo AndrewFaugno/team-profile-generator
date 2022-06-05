@@ -34,8 +34,8 @@ const generateCard = function(data) {
                 <h2>${getRoleSymbol(data)} ${data.getRole()}</h2>
             </div>
             <div class="border m-3 p-3">
-                <p class="border-bottom ">${data.getId()}</p>
-                <p>Email: <a href="mailto: ${data.getEmail()}">${data.getEmail()}</a></p>
+                <p class="border-bottom pb-3">${data.getId()}</p>
+                <p class="border-bottom pb-3">Email: <a href="mailto: ${data.getEmail()}">${data.getEmail()}</a></p>
                 <p>${rolePrompt(data)}</p>
             </div>
         </div>
