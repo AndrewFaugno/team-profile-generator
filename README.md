@@ -3,7 +3,7 @@
   ![](https://img.shields.io/badge/License-MIT-blue)
 
   ## Description
-  Creates a html file through user input to display members of ateam, ex. manager, engineer, and intern.
+  Creates a html file through user input to display members of a team such as a manager, engineer, and intern.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,16 +14,16 @@
   * [Questions](#questions)
   
   ## Installation
-  clone repo, then 'npm i' in root terminal.
+  Clone repo, then `npm i` in root terminal to install dependencies needed for application to function.
   
   ## Usage
-  'node index' in root terminal
-
+  User should type `node index` in root terminal then answer the prompts given. Generated html doc will be located in the dist folder. Video tutorial [here](https://drive.google.com/file/d/1JUHaTr4ETQMuOAB3jGbY-6uaGHqprnu8/view).
+  
   ## Contribution
-  .
+  Clone and Install.
 
   ## Test
-  'npm test'
+  `npm test`
 
   
   ## License 
